@@ -1,7 +1,7 @@
 # Linksys PAP2T
 
 Este tutorial visa divulgar as configurações a serem utilizadas no ATA LINKSYS PAP2T, para utilização como "ponte" entre os modems clientes e o servidor dialup.
-O equipamento deverá estar conectado à rede local, via cabo ethernet, e as configurações serão baseadas um ATA com reset de fábrica, cujos procedimentos serão informados à seguir:
+O equipamento deverá estar conectado à rede local, via cabo ethernet, e as configurações serão baseadas em um ATA com reset de fábrica.
 
 # Reset de Fábrica
 
