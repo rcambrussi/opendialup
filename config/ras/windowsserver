@@ -1,0 +1,20 @@
+# Configuração RAS - Windows Server 2003
+
+Configurações para criar um servidor RAS (receber chamadas discadas e compartilhar internet) com Windows Server 2003. 
+
+# Procedimentos Iniciais
+
+Após o WS2003 ser instalado, deve-se definir IP fixo, conforme configurações da sua rede, para placa de rede, antes de implementar as funções necessárias ao Servidor.
+A ativação/implementação das funções é feita pelo aplicativo "Gerenciador do Servidor".
+Efetuar implementação de 1 função por vez.
+Detalhes mais minunciosos sobre a instalação e configuração inicial de cada Função pode ser facilmente encontrados em vídeos/tutoriais no Youtube.
+
+# Active Directory - Controlador de Domínio
+
+Instalar a função de Active Directory para crianção/gerenciamento dos usuários;
+Criar um usuário;
+Depois de criado o usuário, acessar "Usuários e computadores do Active Directory", selecionar usuário com botçao direito e ir em PROPRIEDADES. Localizar a aba DISCAGEM e marcar opção PERMITIR ACESSO;
+
+# Servidor de Acesso Remoto/VPN
+
+Instalar a função de Servidor de Acesso Remoto, para configuração das conexão discadas recebidas e o compartilhamento da internet para os usuários;
